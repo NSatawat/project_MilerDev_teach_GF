@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+nav{
+    padding: 1rem;
+    background-color: #333;
+
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a  {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero-con{
+    display: flex;
+    
+}
+
+
+.hero-info{
+    width: 100%;
+    padding: 2rem;
+}
+
+.hero-info h3{
+    font-size: 2rem;
+}
+
+.hero-info p{
+    margin: 1rem 0;
+}
+
+.herp-info ,.hero-btn{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-img img {
+    padding: 2rem;
+    width: 100%;
+   
+}
